@@ -1,0 +1,44 @@
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+    background-color: rgb(119, 119, 119);
+}
+
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+    text-shadow: rgba(255, 255, 255, 0.5);
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #565657;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.home {
+    margin-top: 200px;
+}
+
+footer {
+    margin-top: 500px;
+}
+
+.navbar-brand2 img {
+    width: 40px;
+    margin-right: 30px;
+}
